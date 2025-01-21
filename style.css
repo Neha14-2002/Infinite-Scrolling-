@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Sedgwick+Ave+Display&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Sedgwick Ave Display', cursive;
+    background-color: rgb(223, 217, 217);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    
+}
+
+.loader {
+    position: fixed;
+    inset: 0;
+    background: hwb(0 96% 3%);
+}
+
+.loader img {
+    position: fixed;
+    top: 40%;
+    left: 45%;
+}
+
+.img-container {
+    margin: 10px 30%;
+}
+
+.img-container img {
+    width: 100%;
+    margin-top: 5px;
+    border-right: 2px solid #f6f6f8;
+    border-left: 2px solid #faf8f8;
+}
+
+
+
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 20px;
+    }
+    .img-container {
+        margin: 10px;
+    }
+}
+body {
+    background: rgb(250, 248, 248);
+    color: wheat;
+}
